@@ -1,8 +1,19 @@
 
+// const display = document.querySelector('.textview');
+// const displayedNum =  display.textContent;
+// if(!displayedNum.includes('.')){
+//     display.textContent = displayedNum + '.'
+// }
+
 
 
 // Use insert() function to insert the number in textview.
 function insert(num) {
+    // if(!document.form1.textview.includes('.')){
+    //     document.form1.textview.value = document.form1.textview.value + '.';
+    // }
+    
+    // display.textContent = displayedNum + num;
     document.form1.textview.value = document.form1.textview.value + num;
 }
 
